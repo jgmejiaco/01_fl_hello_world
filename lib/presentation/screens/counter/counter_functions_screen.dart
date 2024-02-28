@@ -17,7 +17,11 @@ class _CounterFunctionScreenState extends State<CounterFunctionScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('titulo appBar'),
+        title: const Text('Pantalla Funciones Screen'),
+        leading: IconButton(
+          icon: Icon(Icons.refresh_rounded),
+          onPressed: () {  },
+        ),
       ),
       body: Center(
         child: Column(
